@@ -1,0 +1,62 @@
+{
+  "site": {
+    "name": "META AIVI",
+    "tagline": "AI Vision, IoT and Smart Electrical Systems",
+    "description": "Meta Aivi by Arrowmatics AI helps businesses turn AI Vision, IoT and smart electrical systems into practical operational value.",
+    "slogan": "Profit is nothing without flow",
+    "brand": "SenseSystem — Controlled Flow",
+    "colors": { "accent": "#cc8b2d", "dark": "#221b16" },
+    "whatsapp": "+60122112522",
+    "phone": "+60351910299",
+    "email": "arrowmatics@gmail.com",
+    "company": "Arrowmatics AI Sdn Bhd",
+    "ssm": "201801043774 (1305806-W)",
+    "address": "No.64, Jalan Kapar 27/89, Megah Industrial Park, Taman Alam Megah, Section 27, 40400 Shah Alam, Selangor, Malaysia"
+  },
+  "nav": [
+    { "label": "Homepage", "href": "index.html" },
+    { "label": "About Us", "href": "pages/about.html" },
+    { "label": "Core Technologies", "href": "pages/technologies.html" },
+    { "label": "How We Think", "href": "pages/how-we-think.html" },
+    { "label": "Video Gallery", "href": "pages/video-gallery.html" },
+    { "label": "Contact Us", "href": "pages/contact.html" }
+  ],
+  "home": {
+    "hero_title": "WHERE INTELLIGENCE MEETS CURRENT",
+    "hero_sub": "EMPOWERING POSSIBILITIES THROUGH AI VISION & SYSTEMIC INNOVATION",
+    "hero_lead": "We turn what others overlook into breakthrough opportunities. At Arrowmatics AI, we don't just deliver tech — we unlock unseen value with AI Vision, IoT, and smart electrical systems, tailored for industries that matter.",
+    "about_title": "ABOUT ARROWMATICS AI",
+    "about_text": "We are Arrowmatics AI, a Systemic Provider who integrates intelligent technologies to serve real-world needs. Our mission is to empower businesses to grow, adapt, and lead by turning complexity into clarity and unused resources into new value. Our mindset is practical, yet visionary. We believe everything is possible when approached with thoughtful systems thinking. Our solutions are not just products, they are purpose-built outcomes that help our clients succeed sustainably.",
+    "tech_cards": [
+      { "name": "Smart Electrical Systems", "desc": "SMART BUILDING · SMART HOME · SMART EV SOLUTION. Energy-efficient load management, custom electrical panel integration with automation, secure monitoring and performance diagnostics.", "href": "pages/technologies.html" },
+      { "name": "IoT for Manufacturing", "desc": "Smart sensors and controls for automation, predictive data to minimize downtime, real-time remote monitoring and decision support.", "href": "pages/technologies.html" },
+      { "name": "AI Vision (Front & Center)", "desc": "Visual AI for inspection, safety, logistics, and automation. Deep learning for quality control and smart recognition. Real-time image processing for precision and efficiency.", "href": "pages/technologies.html" },
+      { "name": "REFI Electrical Fault Isolator (Patented)", "desc": "System-Level Protection Architecture, Integrated Electrical Stability Control, Advanced Fault Isolation & Recovery, Coordinated Surge & Over-Voltage Management.", "href": "pages/technologies.html" }
+    ],
+    "video_title": "VIDEO GALLERY — Demostration Footage",
+    "videos": ["Car Brands","People Counting","License Plate Recognition","Durian Grading","Unattended Object Detection","Stripped Unstripped Bunch Classification","Smoke Detection","Pizza Quality Checker","Theft Detection","PPE Compliance Detection","Forklift Detection","Fire Detection","Customer vs Staff Presence"],
+    "closing": "We design with purpose. Build with clarity. Deliver with value. Whether you're in manufacturing, agriculture, logistics, or ESG-driven industries, we work systemically to co-create what's next — even when it doesn't yet exist. That's what it means to be a Systemic Provider.",
+    "sensesystem": "AI is just a tool. A tool dropped into a real business, raw, is rigid. It doesn't know your floor. It forces itself on a process never built for it. The tool isn't the win. The fit is. Sensible → Simple → Systematic."
+  },
+  "about": {
+    "title": "A SYSTEMIC PROVIDER DRIVEN BY SENSIBILITY, SIMPLICITY, AND SYSTEMATICALLY DELIVERED VALUE.",
+    "body": "Arrowmatics AI develops AI-enabled and system-driven solutions for industrial, commercial, and operational environments. The work focuses on clear implementation, measurable usefulness, and technology that can be maintained after launch."
+  },
+  "how": {
+    "title": "WE DESIGN WITH PURPOSE, BUILD WITH CLARITY, AND DELIVER WITH VALUE.",
+    "body": "SENSESYSTEM — CONTROLLED FLOW. Our thinking is practical: sense what matters, simplify what is noisy, and systemize the process so outcomes can be repeated. The result is technology that feels clear to operate and useful in the field."
+  },
+  "technologies": {
+    "title": "CORE TECHNOLOGIES — OUR TECH STACK & CAPABILITIES",
+    "items": [
+      { "name": "Smart Electrical Systems", "desc": "Systems that support safer, clearer, and more responsive electrical operations." },
+      { "name": "IoT for Manufacturing", "desc": "Connected sensing and operational visibility for manufacturing environments." },
+      { "name": "AI Vision (Front & Center)", "desc": "Vision-led intelligence for inspection, recognition, and operational insight." },
+      { "name": "REFI Electrical Fault Isolator (Patented)", "desc": "A patented approach for fault isolation and electrical protection workflows." }
+    ]
+  },
+  "contact": {
+    "title": "TELL US WHAT YOU WANT TO SENSE, SIMPLIFY, OR SYSTEMIZE.",
+    "sub": "START A CONVERSATION — Send your enquiry and the Meta Aivi team will follow up with you."
+  }
+}

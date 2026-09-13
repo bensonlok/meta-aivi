@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Video Gallery — META AIVI</title>
+<meta name="description" content="Meta Aivi demonstration footage: AI Vision use cases across industries.">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header><div class="wrap"><div class="logo">META <span>AIVI</span></div><nav id="nav"></nav></div></header>
+<section><div class="wrap">
+  <h2 class="section-title">VIDEO GALLERY — Demostration Footage</h2>
+  <div class="tags" id="tags"></div>
+  <p style="margin-top:24px;opacity:.7">Full demo videos available on request — contact us via WhatsApp.</p>
+</div></section>
+<footer id="footer"></footer>
+<a class="whatsapp-float" id="wa" target="_blank">💬 WhatsApp</a>
+<script src="../assets/js/cms.js"></script>
+<script>(async()=>{const c=await CMS.loadContent();
+document.getElementById('nav').innerHTML=CMS.renderNav(c.nav,'Video Gallery');
+document.getElementById('tags').innerHTML=c.home.videos.map(v=>`<span class="tag">${v}</span>`).join('');
+document.getElementById('footer').innerHTML=CMS.renderFooter(c.site);
+document.getElementById('wa').href=CMS.waLink(c.site.whatsapp);})();</script>
+</body></html>

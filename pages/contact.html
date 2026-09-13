@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact Us — META AIVI</title>
+<meta name="description" content="Tell us what you want to sense, simplify, or systemize. Start a conversation with Meta Aivi.">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header><div class="wrap"><div class="logo">META <span>AIVI</span></div><nav id="nav"></nav></div></header>
+<section><div class="wrap">
+  <h2 class="section-title" id="t"></h2>
+  <p id="s" style="margin-bottom:24px"></p>
+  <div class="contact-box">
+    <p><strong>WhatsApp:</strong> <a id="wa2" target="_blank"></a></p>
+    <p><strong>Phone:</strong> <span id="ph"></span></p>
+    <p><strong>Email:</strong> <a id="em"></a></p>
+    <p><strong>Address:</strong> <span id="ad"></span></p>
+    <a class="btn" id="wa1" target="_blank" style="margin-top:16px;display:inline-block">Message Us on WhatsApp</a>
+  </div>
+</div></section>
+<footer id="footer"></footer>
+<a class="whatsapp-float" id="wa" target="_blank">💬 WhatsApp</a>
+<script src="../assets/js/cms.js"></script>
+<script>(async()=>{const c=await CMS.loadContent();const s=c.site;
+document.getElementById('nav').innerHTML=CMS.renderNav(c.nav,'Contact Us');
+document.getElementById('t').textContent=c.contact.title;
+document.getElementById('s').textContent=c.contact.sub;
+document.getElementById('wa2').textContent=s.whatsapp;document.getElementById('wa2').href=CMS.waLink(s.whatsapp);
+document.getElementById('wa1').href=CMS.waLink(s.whatsapp);
+document.getElementById('ph').textContent=s.phone;
+document.getElementById('em').textContent=s.email;document.getElementById('em').href='mailto:'+s.email;
+document.getElementById('ad').textContent=s.address;
+document.getElementById('footer').innerHTML=CMS.renderFooter(s);
+document.getElementById('wa').href=CMS.waLink(s.whatsapp);})();</script>
+</body></html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How We Think — META AIVI</title>
+<meta name="description" content="SenseSystem — Controlled Flow. Sense what matters, simplify what is noisy, systemize the process.">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header><div class="wrap"><div class="logo">META <span>AIVI</span></div><nav id="nav"></nav></div></header>
+<section><div class="wrap">
+  <h2 class="section-title" id="t"></h2>
+  <p id="b" style="max-width:780px;font-size:1.05rem"></p>
+</div></section>
+<footer id="footer"></footer>
+<a class="whatsapp-float" id="wa" target="_blank">💬 WhatsApp</a>
+<script src="../assets/js/cms.js"></script>
+<script>(async()=>{const c=await CMS.loadContent();
+document.getElementById('nav').innerHTML=CMS.renderNav(c.nav,'How We Think');
+document.getElementById('t').textContent=c.how.title;
+document.getElementById('b').textContent=c.how.body;
+document.getElementById('footer').innerHTML=CMS.renderFooter(c.site);
+document.getElementById('wa').href=CMS.waLink(c.site.whatsapp);})();</script>
+</body></html>
